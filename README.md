@@ -24,6 +24,8 @@ SELECT * FROM Customers
 ```
 This will display the entire table.
 
+Note, if working with SQL Alchemy, [the "Query API" is the equivalent of SELECT in SQL](https://docs.sqlalchemy.org/en/13/orm/query.html#).
+
 ### SELECT DISTINCT
 
 This extracts a specific column from a database table.
